@@ -1,0 +1,52 @@
+vreau ca landing page sa cuprinda vreo 6 sectiuni : 
+sectiune 1 : logo + poza radiologie + buton try demo 
+sectiune 2 : descriere + video 
+sectiune 3: descriere 3-4 solutii 
+sectiune 4 : how it works ( schema /desen)
+sectiune 5: declaratii celebre despre AI medical ( Zuckerberg etc )
+sectiune 6 : Contact us 
+
+
+sectiune 1 : 
+   logo-ul este poza logo.PNG ; 
+   butonul sa fie cam de acceasi culoare ca albastrul de la logo;
+   daca trebuie putem schimba logo-ul pe negru;
+   paginile catre care se trimite butonul trebuie sa aiba fundal si cuori pe negru ;
+   butonul sa se numeasca : Try COVID 19 Detection
+
+ 
+sectiune 2 :
+    descriere :
+Radiologists today are under increasing work pressure. In a survey of 50 radiologists practicing in the United States, 90% reported their workload had increased over the
+ last 3 years, and 28% said it had increased by more than 20% . The primary reason, cited by 78% of those who reported a heavier workload was the increasing 
+number of scans. As the academic literature affirms, the more scans conducted, the greater the need for radiologists to read them quickly yet accurately.
+    youtube video : https://www.youtube.com/watch?v=9fAcjfnWyso
+
+
+sectiune 3 : 
+   o sectiune cu 3 imagini linkabile 
+   prima poza sa duca catre aplicatia covid 
+   la restul pozelor sa apara coming soon 
+   pozele sunt 1,2,3,4
+
+
+sectiune 4 :
+  - am o poza cu schema ..schema.jpeg
+
+sectiune 5 :
+  - A.I Medicine in Tech Keynotes in loc de  Our Teams
+  - 3 poze cu cei 3 CEO si citatele lor mai jos:
+   "So , imagine that, soon every doctor around the world just gonna have the ability to snap a photo and as well as the best doctors in the world be able to diagnose your cancer. That's gonna save lives !" 
+    Mark Zuckerberg at F8 2016
+   "If there is one application where a lot of very complicated, messy and unstructured data is available, it is the field of medicine. And waht better application for deep learning than to improve our haelth, improve life?"
+    Jen-Hsun Huang , GTC 2016
+   "It's very very difficult to have highly trained doctors available in many parts of the world. Deep learning did really good at detecting DR. We can see the promise again, of using machine learning. 
+    Sundar Pichai, Google IO 2016
+
+    pozele sunt in folder;
+
+sectiune 6 : 
+    - un formular in care poate sa ne trimita mesaj la o anumita adresa de email
+    - email firma : ai@smartmediscan.com
+    -nr tel : 0724086663 
+    - adresa : Calea Vitan 231 , Bucuresti , RO
