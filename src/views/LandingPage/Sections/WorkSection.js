@@ -19,16 +19,37 @@ export default function WorkSection() {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Work with us</h2>
-          <h4 className={classes.description}>
-            Divide details about your product or agency work into parts. Write a
-            few lines about each one and contact us about any further
-            collaboration. We will responde get back to you in a couple of
-            hours.
-          </h4>
+        <GridItem cs={12} sm={12} md={12}>
+          <h2 className={classes.title}>Contact us</h2>
+            <GridContainer justify="center">
+              <GridItem xs={12} sm={12} md={4} style={{
+    display: 'flex',
+    color:' #999',
+    alignItems: 'center',
+    justifyContent: 'center'
+              }}>
+              <i className="fas fa-envelope fa-lg" /> <span>&nbsp;&nbsp;&nbsp;ai@smartmediscan.com</span>
+              </GridItem>
+              <GridItem xs={12} sm={12} md={4} style={{
+    display: 'flex',
+    color:' #999',
+    alignItems: 'center',
+    justifyContent: 'center'
+              }}>
+              <i className="fas fa-phone fa-lg" /> <span>&nbsp;&nbsp;&nbsp;0724086663</span>
+              </GridItem>
+              <GridItem xs={12} sm={12} md={4} style={{
+    display: 'flex',
+    color:' #999',
+    alignItems: 'center',
+    justifyContent: 'center'
+              }}>
+              <i className="fas fa-map-marker-alt fa-lg" /> <span>&nbsp;&nbsp;&nbsp;Calea Vitan 231 , Bucuresti , RO</span>
+              </GridItem>
+              
+            </GridContainer>
           <form>
-            <GridContainer>
+            <GridContainer  cs={12} sm={12} md={12}>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
                   labelText="Your Name"

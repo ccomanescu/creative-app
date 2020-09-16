@@ -14,6 +14,12 @@ const productStyle = {
   },
   description: {
     color: "#999"
+  },
+  zoom: {
+    transition: 'transform .2s', /* Animation */
+    "&:hover": {
+      transform: "scale(1.5)"
+    }
   }
 };
 

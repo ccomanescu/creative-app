@@ -30,18 +30,26 @@ number of scans. As the academic literature affirms, the more scans conducted, t
           </h5>
         </GridItem>
       </GridContainer>
-      <div>
-        <GridContainer  justify="center">
-          <GridItem xs={12} sm={12} md={8}>
-            <ReactPlayer
-            width="100%"
-            height="200%"
-            controls="true"
-              url="https://www.youtube.com/watch?v=UVCP4bKy9Iw"
-            />
-          </GridItem>
-        </GridContainer>
-      </div>
+      <GridContainer  justify="center">
+        <GridItem xs={12} sm={12} md={8}>
+          <ReactPlayer
+          width="100%"
+          height="200%"
+          controls="true"
+            url="https://www.youtube.com/watch?v=UVCP4bKy9Iw"
+          />
+        </GridItem>
+        {/* hidden because of double height... fml */}
+        <GridItem xs={12} sm={12} md={8} style={{visibility: 'hidden'}}>
+          <ReactPlayer
+          width="100%"
+          height="200%"
+          controls="true"
+            url="https://www.youtube.com/watch?v=UVCP4bKy9Iw"
+          />
+        </GridItem>
+      </GridContainer>
+      <div style={{clear:'both'}}></div> 
     </div>
   );
 }

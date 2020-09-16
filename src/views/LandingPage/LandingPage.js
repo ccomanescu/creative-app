@@ -18,6 +18,7 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
+import SchemaSection from "./Sections/SchemaSection.js";
 import ProductSection from "./Sections/ProductSection.js";
 import SectionCarousel from "../Components/Sections/SectionCarousel.js";
 import TeamSection from "./Sections/TeamSection.js";
@@ -41,13 +42,11 @@ export default function LandingPage(props) {
     <div>
       <Header
         color="transparent"
-        routes={dashboardRoutes}
         brand="SmartMediScan"
-        rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "black"
+          color: "dark"
         }}
         {...rest}
       />
@@ -73,11 +72,11 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.blackBackground, classes.whiteText)}>
         <div className={classes.container}>
           <ProductSection />
-          <br/>
-          <br/>
+
           <SectionCarousel images={[image1, image2, image3, image4]}/>
-          <br/>
-          <br/>
+
+          <SchemaSection />
+
           <TeamSection />
           <WorkSection />
         </div>
